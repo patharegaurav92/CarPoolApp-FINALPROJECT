@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.student.android.chatappvolley">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/go_ride"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".features.Splashscreen"
+            android:label="Go Ride"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Go Ride! "></activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".Users"
+            android:label="@string/title_activity_users"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Chat"
+            android:label="@string/title_activity_chat"
+            android:parentActivityName=".Users" />
+        <activity
+            android:name=".UpdateProfile"
+            android:label="@string/title_activity_edit_profile"
+            android:parentActivityName=".ViewProfile" />
+        <activity
+            android:name=".PendingActivity"
+            android:label="Pending Requests"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".ViewProfile"
+            android:label="@string/title_activity_view_profile"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".features.RequestACarpool"
+            android:label="Request Carpool"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".features.ViewRequestRides"
+            android:label="Your Requested Rides"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".features.OwnACarpool"
+            android:label="@string/title_activity_own_a_carpool"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".features.AcceptRides"
+            android:label="@string/title_activity_accept_rides"
+            android:parentActivityName=".Home" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".features.ViewYourCarpool"
+            android:label="@string/title_activity_view_your_carpool"
+            android:parentActivityName=".Home" />
+        <activity android:name=".features.MapActivity" />
+        <activity
+            android:name=".features.AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".Home"
+            ></activity>
+    </application>
+
+</manifest>

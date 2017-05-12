@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="edu.student.android.chatappvolley.features.AboutUsActivity"
+    android:orientation="horizontal">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Go Ride works to provide you the carpooling feature. \n
+Few Features:\n
+1. Users can make a request and/or own a carpool request for its source and destination.\n
+2. Provide optimal path for the sources and destinations of owner and requesters.\n 3. Constructs and provides shortest path based on distances of the requesters on the owners path to be taken for the route. \n
+4. Facililates real time chat appication for the registered users.\n
+\n
+Do write to us about your feedback on the application.
+Contact : projectgroup.csulb@gmail.com"
+    android:textColor="@color/colorPrimary"/>
+
+
+</LinearLayout>

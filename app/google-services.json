@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "327635238171",
+    "firebase_url": "https://carpoolapp-2ec11.firebaseio.com",
+    "project_id": "carpoolapp-2ec11",
+    "storage_bucket": "carpoolapp-2ec11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327635238171:android:8fad7e053f3bee97",
+        "android_client_info": {
+          "package_name": "edu.student.android.chatappvolley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327635238171-9200oqmp90tithv73usq9bsv8ak6e7e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPhkvHFNM3RLGihk3K4pifCjYeE5AflYk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

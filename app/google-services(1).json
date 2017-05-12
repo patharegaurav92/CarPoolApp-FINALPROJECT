@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "224593369357",
+    "firebase_url": "https://chatappvolley.firebaseio.com",
+    "project_id": "chatappvolley",
+    "storage_bucket": "chatappvolley.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224593369357:android:8fad7e053f3bee97",
+        "android_client_info": {
+          "package_name": "edu.student.android.chatappvolley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224593369357-u499d7amqq9f47etpa9np5on7ed1kgug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.student.android.chatappvolley",
+            "certificate_hash": "3761958d84ed2312c95770604e64b033f2d971a0"
+          }
+        },
+        {
+          "client_id": "224593369357-a4rvj5v3uqsk2srofo791nf5l2fkvvci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOjjGnf3zBQHV5LqZkxeOZQZoW_Oi5PAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224593369357-a4rvj5v3uqsk2srofo791nf5l2fkvvci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

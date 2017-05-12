@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="4dp"
+        android:id="@+id/ownacarpool"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Own A Carpool"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+
+
+    <!--<TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="4dp"
+        android:textSize="20dp"
+        android:id="@+id/requestacarpool"
+
+        android:text="Request A Carpool"/>-->
+   <!-- <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="4dp"
+        android:textSize="20dp"
+        android:id="@+id/chat"
+
+        android:text="Chat with Existing Users of App"/>-->
+  <!--  <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="4dp"
+        android:textSize="20dp"
+        android:id="@+id/updateprofile"
+
+        android:text="View Profile"/>-->
+    <TextView
+      
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textSize="20dp"
+        android:id="@+id/viewcarpool"
+		android:textColor="@color/colorPrimaryDark"
+		android:text="View Carpool"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/myrequestedrides"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="My Requested Rides"
+		 android:textSize="20dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+
+    <TextView
+        android:id="@+id/requestacarpool"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Request A Carpool"
+
+        android:textSize="20dp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="4dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/pending_requests"
+        android:text="Pending Requests"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>
