@@ -1,3 +1,3 @@
 # CarPoolApp
 
-Group Members : Chinmay, Gaurav, Niyati
+Group Members : Gaurav, Niyati
